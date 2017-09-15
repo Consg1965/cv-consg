@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>CV Conrado Subirón</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Fuente   -->
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        * {
+            font-family: "Abhaya Libre", serif;
+            font-style: italic;
+        }
+        
+        #myCarousel {
+            height: 14vw;
+            width: 100%;
+        }
+        
+        .sin-margenes {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        
+        .sin-margenes2 {
+            margin: 0;
+        }
+        
+        .tit-carousel {
+            color: rgb(23, 54, 93);
+            text-align: center;
+            font-size: 8vw;
+        }
+        
+        .carousel-control.left {
+            background-image: linear-gradient(to right, rgba(23, 54, 93, .5) 0, rgba(0, 0, 0, .0001) 100%);
+        }
+        
+        .carousel-control.right {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(23, 54, 93, .5) 100%);
+        }
+        
+        .contacto {
+            line-height: 44px;
+            text-align: right;
+        }
+        
+        .oculto {
+            display: none;
+        }
+        
+        #foto1 {
+            margin: 50px auto;
+        }
+        
+        #foto2 {
+            margin: 50px auto;
+        }
+        
+        #texto-foto {
+            margin: auto;
+            color: rgb(23, 54, 93);
+            text-align: center;
+            font-size: 10vw;
+            line-height: 18vw;
+        }
+        
+        .h1-datos {
+            margin-top: 75px;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: rgb(146, 205, 220);
+            color: rgb(23, 54, 93);
+        }
+        
+        #datosPersonales p {
+            margin-top: 1.30vw;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        
+        .parrafoNegrita {
+            margin-top: 2.25vw;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        
+        .parrafoNormal {
+            display: none;
+            margin-top: 1.25vw;
+            font-size: 1.5em;
+        }
+        
+        footer {
+            margin-top: 50px;
+            padding: 15px;
+            background-color: rgb(23, 54, 93);
+        }
+        
+        footer div h2 {
+            font-size: 4vw;
+            color: rgb(146, 205, 220);
+        }
+        
+        footer div h4 {
+            font-size: 2vw;
+            color: rgb(146, 205, 220);
+        }
+        
+        footer div h6 {
+            font-size: 1vw;
+            color: rgb(146, 205, 220);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container sin-margenes">
+        <header>
+            <div class="container sin-margenes">
+                <div class="row sin-margenes">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <h1 class="tit-carousel">Currículum Vítae</h1>
+                            </div>
+                            <div class="item">
+                                <h1 class="tit-carousel">Conrado Subirón</h1>
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar navbar-default sin-margenes">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand inicio" href="#">CV Consg</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse sin-margenes" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="datosPersonales"><a href="#">Datos personales</a></li>
+                        <li class="formacionAcademica"><a href="#">Formación académica</a></li>
+                        <li class="formacionComplementaria"><a href="#">Formación complementaria</a></li>
+                        <li class="experienciaProfesional"><a href="#">Experiencia profesional</a></li>
+                    </ul>
+                    <p class="contacto">E-mail: consg@outlook.es</p>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <div class="container sin-margenes">
+            <div id="inicio" class="row sin-margenes">
+                <div id="imagen1" class="col-sm-6 prueba">
+                    <img id="foto1" src="foto_con.jpg" class="img-responsive" alt="Foto Conrado" width="514" height="620">
+                </div>
+                <div id="texto-imagen1" class="col-sm-6">
+                    <h1 id="texto-foto">CV Conrado Subirón</h1>
+                </div>
+            </div>
+            <div id="datosPersonales" class="row oculto sin-margenes">
+                <h1 class="h1-datos">Datos personales</h1>
+                <div class="col-sm-7 sin-margenes2">
+                    <p><b>Nombre:</b> Conrado Subirón González</p>
+                    <p><b>Dirección:</b> C/ Federico Ozanam, 59</p>
+                    <p><b>Localidad y C.P.:</b> Zaragoza 50012</p>
+                    <p><b>Fecha de nacimiento:</b> 12/09/1965</p>
+                    <p><b>Lugar de nacimiento:</b> Zaragoza</p>
+                    <p><b>Teléfono móvi:</b> 607431188</p>
+                    <p><b>E-mail:</b> consg@outlook.es</p>
+                    <p><b>Carnet de conducir:</b> B (Vhículo propio)</p>
+                </div>
+                <div class="col-sm-5 sin-margenes2">
+                    <img id="foto2" src="foto_con.jpg" class="img-responsive" alt="Foto Conrado" width="257" height="310">
+                </div>
+            </div>
+            <div id="formacionAcademica" class="row oculto sin-margenes">
+                <h1 class="h1-datos">Formación académica</h1>
+                <div class="col-sm-10 col-sm-offset-1">
+                    <p class="parrafoNegrita">Graduado escolar</p>
+                    <p class="parrafoNegrita">B.U.P. (Hasta 2º, convalida graduado E.S.O.)</p>
+                </div>
+            </div>
+            <div id="formacionComplementaria" class="row oculto sin-margenes">
+                <h1 class="h1-datos">Formación complementaria</h1>
+                <div class="col-sm-10 col-sm-offset-1">
+                    <p id="web" class="parrafoNegrita">Curso de confección y publicación de páginas web (490 horas, Tursport, 2017, a falta de prácticas para certificado profesional)</p>
+                    <p class="web parrafoNormal">Denominación: IFCD0110 –Confección y publicación de páginas web</p>
+                    <p class="web parrafoNormal">Familia profesional: Informática y comunicaciones</p>
+                    <p class="web parrafoNormal">Área profesional: Desarrollo</p>
+                    <p class="web parrafoNormal">Cualificación profesional: Nivel 2</p>
+                    <p class="web parrafoNormal">Módulos formativos:</p>
+                    <p class="web parrafoNormal"> - MF0950_2: Construcción de páginas web</p>
+                    <p class="web parrafoNormal"> - MF0951_2: Integración de componentes software en páginas web</p>
+                    <p class="web parrafoNormal"> - MF 0952_2: Publicación de páginas web</p>
+                    <p id="sistemas" class="parrafoNegrita">Curso de sistemas microinformáticos (570 horas, Qualitas, 2015 – 2016, a falta de prácticas para certificado profesional)</p>
+                    <p class="sistemas parrafoNormal">Denominación: IFCT0209 -Sistemas microinformáticos</p>
+                    <p class="sistemas parrafoNormal">Familia profesional: Informática y comunicaciones</p>
+                    <p class="sistemas parrafoNormal">Cualificación profesional: Nivel 2</p>
+                    <p class="sistemas parrafoNormal">Módulos formativos:</p>
+                    <p class="sistemas parrafoNormal"> - MF0219_2 (Transversal): Instalación y configuración de sistemas operativos. (140 horas)</p>
+                    <p class="sistemas parrafoNormal"> - MF0220_2 (Transversal): Implantación de los elementos de la red local. (160 horas)</p>
+                    <p class="sistemas parrafoNormal"> - MF0221_2: Instalación y configuración de aplicaciones informáticas. (60 horas)</p>
+                    <p class="sistemas parrafoNormal"> - MF0222_2: Aplicaciones microinformáticas. (200 horas)</p>
+                    <p id="toro" class="parrafoNegrita">Curso de conducción de carretillas elevadoras (12 horas, SEPREAT.SL, marzo 2015)</p>
+                    <p id="cnc" class="parrafoNegrita">Curso preparador-programador de máquinas herramientas con CNC (350 horas, La Salle Santo Ángel, 2014)</p>
+                    <p class="cnc parrafoNormal"> - Procesos de mecanizado con máquinas CNC (100 horas): Desarrollo de procesos operativos de mecanizado.</p>
+                    <p class="cnc parrafoNormal"> - Programación asistida por ordenador (250 horas): Desarrollo del programa de CNC asistido por ordenador (CAD-CAM)</p>
+                    <p id="office" class="parrafoNegrita">Curso Microsoft Office (64 horas, centro IFES Zaragoza, 2013)</p>
+                </div>
+            </div>
+            <div id="experienciaProfesional" class="row oculto sin-margenes">
+                <h1 class="h1-datos">Experiencia profesional</h1>
+                <div class="col-sm-10 col-sm-offset-1">
+                    <p id="roto" class="parrafoNegrita">Rotoformas (Mayo 2014 – Abril 2015)</p>
+                    <p class="roto parrafoNormal"> - Fabricación de contrapesas para el cableado de las catenarias del ferrocarril.</p>
+                    <p class="roto parrafoNormal"> - Repasado y mecanización de depósitos fabricados en plástico.</p>
+                    <p id="loar" class="parrafoNegrita">Logística Aragón XXI, S.C.A. (Feb. 2011 – Ago. 2012)</p>
+                    <p class="loar parrafoNormal">Fabricación de mobiliario de cocina, baño y armario empotrado.</p>
+                    <p class="loar parrafoNormal"> - Corte y canteado de tablero melaminado, rechapado, etc.</p>
+                    <p class="loar parrafoNormal"> - Mecanizado de módulos y puertas de cocina y baño.</p>
+                    <p class="loar parrafoNormal"> - Montaje de módulos, instalación de accesorios y herrajes.</p>
+                    <p class="loar parrafoNormal"> - Limpieza y embalaje.</p>
+                    <p id="monco" class="parrafoNegrita">Moncocinas, S.L. (Nov. 2005 – Feb. 2011)</p>
+                    <p class="monco parrafoNormal">Fabricación de mobiliario de cocina, baño y armario empotrado.</p>
+                    <p class="monco parrafoNormal"> - Corte y canteado de tablero melaminado, rechapado, etc.</p>
+                    <p class="monco parrafoNormal"> - Mecanizado de módulos y puertas de cocina y baño.</p>
+                    <p class="monco parrafoNormal"> - Montaje de módulos, instalación de accesorios y herrajes.</p>
+                    <p class="monco parrafoNormal"> - Limpieza y embalaje.</p>
+                    <p id="igor" class="parrafoNegrita">Armarios Igor (Feb. – Jun. 2005)</p>
+                    <p class="igor parrafoNormal">Trabajo realizado en la sección de acabado.</p>
+                    <p class="igor parrafoNormal"> - Ensamblaje de puertas correderas y batientes para armarios empotrados.</p>
+                    <p class="igor parrafoNormal"> - Montaje de módulos especiales (mesillas, sinfonieres, etc.)</p>
+                    <p id="rey" class="parrafoNegrita">Saneamientos Rey Zaragoza, S.L. (Mayo – Nov. 2004)</p>
+                    <p class="rey parrafoNormal">Al frente de una pequeña tienda de bricolaje.</p>
+                    <p class="rey parrafoNormal"> - Atención al cliente</p>
+                    <p class="rey parrafoNormal"> - Venta de productos de bricolaje (herramientas de mano, pinturas, herrajes…)</p>
+                    <p class="rey parrafoNormal"> - Corte y canteado de tableros según medidas.</p>
+                    <p id="beltran" class="parrafoNegrita">Maderas Hermanos Beltrán Loriente, S.L. (1990 - 1997; 2001 – 2003)</p>
+                    <p class="beltran parrafoNormal">Venta de tableros a medida, materiales y accesorios para cocinas y armarios.</p>
+                    <p class="beltran parrafoNormal"> - Corte y canteado de tableros.</p>
+                    <p class="beltran parrafoNormal"> - Montaje de módulos.</p>
+                    <p class="beltran parrafoNormal"> - Preparación de materiales y herrajes.</p>
+                    <p class="beltran parrafoNormal"> - Atención al cliente.</p>
+                    <p id="autonomo" class="parrafoNegrita">Instalador de mobiliario para el hogar (Autónomo; Feb. 1998 – Mar. 2001)</p>
+                    <p class="autonomo parrafoNormal">Trabajo realizado por cuenta de varias tiendas de muebles.</p>
+                    <p class="autonomo parrafoNormal"> - Reparto de muebles.</p>
+                    <p class="autonomo parrafoNormal"> - Montaje de mobiliario para el hogar.</p>
+                    <p id="arcafe" class="parrafoNegrita">Arcafe, S.L. (Ene. 1989 – Feb. 1990)</p>
+                    <p class="arcafe parrafoNormal">Fabricación de armario empotrado.</p>
+                    <p class="arcafe parrafoNormal"> - Corte y canteado de tablero.</p>
+                    <p class="arcafe parrafoNormal"> - Montaje de cajoneras y zapateros.</p>
+                    <p class="arcafe parrafoNormal"> - Ensamblaje de puertas correderas para armarios.</p>
+                    <p class="arcafe parrafoNormal"> - Preparación de materiales y herrajes.</p>
+                    <p id="transporte" class="parrafoNegrita">Transportista (Autónomo Feb. – Dic. 1988)</p>
+                    <p class="transporte parrafoNormal"> - Reparto a tiendas y mercados de productos avícolas.</p>
+                    <p class="transporte parrafoNormal"> - Portes a empresas y particulares.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container sin-margenes">
+                <h2>Muchas gracias...</h2>
+                <h4>Por dedicar unos minutos a la visualización de este CV</h4>
+                <h4>Por dedicar unos minutos a la inspección de este trabajo</h4>
+                <h4>Por tener en cuenta mi perfil para futuras ofertas laborales</h4>
+                <h6><b>Contacto: consg@outlook.es</b></h6>
+            </div>
+        </footer>
+    </div>
+    <!-- /.container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+        $(".inicio").on({
+            click: function () {
+                $("#inicio").css("display", "block");
+                $("#datosPersonales").css("display", "none");
+                $("#formacionAcademica").css("display", "none");
+                $("#formacionComplementaria").css("display", "none");
+                $("#experienciaProfesional").css("display", "none");
+            }
+        });
+        $(".datosPersonales").on({
+            click: function () {
+                $("#inicio").css("display", "none");
+                $("#datosPersonales").css("display", "block");
+                $("#formacionAcademica").css("display", "none");
+                $("#formacionComplementaria").css("display", "none");
+                $("#experienciaProfesional").css("display", "none");
+            }
+        });
+        $(".formacionAcademica").on({
+            click: function () {
+                $("#inicio").css("display", "none");
+                $("#datosPersonales").css("display", "none");
+                $("#formacionAcademica").css("display", "block");
+                $("#formacionComplementaria").css("display", "none");
+                $("#experienciaProfesional").css("display", "none");
+            }
+        });
+        $(".formacionComplementaria").on({
+            click: function () {
+                $("#inicio").css("display", "none");
+                $("#datosPersonales").css("display", "none");
+                $("#formacionAcademica").css("display", "none");
+                $("#formacionComplementaria").css("display", "block");
+                $("#experienciaProfesional").css("display", "none");
+            }
+        });
+        $(".experienciaProfesional").on({
+            click: function () {
+                $("#inicio").css("display", "none");
+                $("#datosPersonales").css("display", "none");
+                $("#formacionAcademica").css("display", "none");
+                $("#formacionComplementaria").css("display", "none");
+                $("#experienciaProfesional").css("display", "block");
+            }
+        });
+        $("#web").on({
+            mouseover: function () {
+                $(".web").css("display", "block")
+            },
+            mouseout: function () {
+                $(".web").css("display", "none")
+            }
+        });
+        $("#sistemas").on({
+            mouseover: function () {
+                $(".sistemas").css("display", "block")
+            },
+            mouseout: function () {
+                $(".sistemas").css("display", "none")
+            }
+        });
+        $("#cnc").on({
+            mouseover: function () {
+                $(".cnc").css("display", "block")
+            },
+            mouseout: function () {
+                $(".cnc").css("display", "none")
+            }
+        });
+        $("#roto").on({
+            mouseover: function () {
+                $(".roto").css("display", "block")
+            },
+            mouseout: function () {
+                $(".roto").css("display", "none")
+            }
+        });
+        $("#loar").on({
+            mouseover: function () {
+                $(".loar").css("display", "block")
+            },
+            mouseout: function () {
+                $(".loar").css("display", "none")
+            }
+        });
+        $("#monco").on({
+            mouseover: function () {
+                $(".monco").css("display", "block")
+            },
+            mouseout: function () {
+                $(".monco").css("display", "none")
+            }
+        });
+        $("#igor").on({
+            mouseover: function () {
+                $(".igor").css("display", "block")
+            },
+            mouseout: function () {
+                $(".igor").css("display", "none")
+            }
+        });
+        $("#rey").on({
+            mouseover: function () {
+                $(".rey").css("display", "block")
+            },
+            mouseout: function () {
+                $(".rey").css("display", "none")
+            }
+        });
+        $("#beltran").on({
+            mouseover: function () {
+                $(".beltran").css("display", "block")
+            },
+            mouseout: function () {
+                $(".beltran").css("display", "none")
+            }
+        });
+        $("#autonomo").on({
+            mouseover: function () {
+                $(".autonomo").css("display", "block")
+            },
+            mouseout: function () {
+                $(".autonomo").css("display", "none")
+            }
+        });
+        $("#arcafe").on({
+            mouseover: function () {
+                $(".arcafe").css("display", "block")
+            },
+            mouseout: function () {
+                $(".arcafe").css("display", "none")
+            }
+        });
+        $("#transporte").on({
+            mouseover: function () {
+                $(".transporte").css("display", "block")
+            },
+            mouseout: function () {
+                $(".transporte").css("display", "none")
+            }
+        });
+    </script>
+</body>
+
+</html>
